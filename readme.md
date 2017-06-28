@@ -19,20 +19,16 @@ mocha -R spec flights.spec.js
 - heroku integrated
 
 ## Heroku Demo Address: (Heroku git)
-https://guarded-badlands-40160.herokuapp.com/flights/
+https://guarded-badlands-40160.herokuapp.com/flights/<br/>
 <br/>
-
-Post to the below address with the JSON data:
-https://guarded-badlands-40160.herokuapp.com/flights/SYD
-<br/>
-https://guarded-badlands-40160.herokuapp.com/flights/MEL
-<br/>
+Post to the below address with the JSON data:<br/>
+https://guarded-badlands-40160.herokuapp.com/flights/SYD<br/>
+https://guarded-badlands-40160.herokuapp.com/flights/MEL<br/>
 
 ## Heroku Demo Address: (github integration)
-https://qantas-flights.herokuapp.com/flights/
-https://qantas-flights.herokuapp.com//flights/SYD
-https://qantas-flights.herokuapp.com//flights/MEL
-<br/>
+https://qantas-flights.herokuapp.com/flights/ <br/>
+https://qantas-flights.herokuapp.com//flights/SYD <br/>
+https://qantas-flights.herokuapp.com//flights/MEL <br/>
 
 ## To do
 -  move the three processor to use stream based rather than array
