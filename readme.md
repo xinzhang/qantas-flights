@@ -18,8 +18,10 @@ mocha -R spec flights.spec.js
 - heroku integrated
 
 ## Heroku Demo Address:
+# get
 https://guarded-badlands-40160.herokuapp.com/flights/
 <br/>
+#post
 https://guarded-badlands-40160.herokuapp.com/flights/SYD
 <br/>
 https://guarded-badlands-40160.herokuapp.com/flights/MEL
