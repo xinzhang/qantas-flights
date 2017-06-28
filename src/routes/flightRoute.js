@@ -3,7 +3,7 @@ var router = express.Router();
 
 var flightsSchema = require('../schemas/flightsSchema');
 var flightSchema = require('../schemas/flightSchema');
-var Validator = require('schema-validator/Validator');
+var Validator = require('schema-validator/validator');
 
 router.get('/flights', function(req, res, next) {
   res.send('flight arrived.')
