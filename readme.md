@@ -18,25 +18,24 @@ mocha -R spec flights.spec.js
 - heroku integrated
 
 ## Heroku Demo Address:
-# get
 https://guarded-badlands-40160.herokuapp.com/flights/
 <br/>
-#post
+
+Post to the below address with the JSON data:
 https://guarded-badlands-40160.herokuapp.com/flights/SYD
 <br/>
 https://guarded-badlands-40160.herokuapp.com/flights/MEL
 <br/>
 
 ## To do
---------------
 -  move the three processor to use stream based rather than array
 
 ## Screenshots
 
-<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/1.png" alt="Default" width="200" style="width: 200px;"/>
-<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/2.png" alt="SYD" width="200"  style="width: 200px;"/>
-<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/3.png" alt="MEL" width="200" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/1.png" alt="Default" width="400" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/2.png" alt="SYD" width="400"  style="width: 200px;"/>
+<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/3.png" alt="MEL" width="400" style="width: 200px;"/>
 <br/>
 <br/>
-<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/4.png" alt="Error" width="200"  style="width: 200px;"/>
-<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/5.png" alt="Errpr" width="200" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/4.png" alt="Error" width="400"  style="width: 200px;"/>
+<img src="https://github.com/xinzhang/qantas-flights/blob/master/screenshot/5.png" alt="Errpr" width="400" style="width: 200px;"/>
