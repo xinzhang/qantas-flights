@@ -18,7 +18,7 @@ mocha -R spec flights.spec.js
 - add the json schema validator
 - heroku integrated
 
-## Heroku Demo Address:
+## Heroku Demo Address: (Heroku git)
 https://guarded-badlands-40160.herokuapp.com/flights/
 <br/>
 
@@ -26,6 +26,12 @@ Post to the below address with the JSON data:
 https://guarded-badlands-40160.herokuapp.com/flights/SYD
 <br/>
 https://guarded-badlands-40160.herokuapp.com/flights/MEL
+<br/>
+
+## Heroku Demo Address: (github integration)
+https://qantas-flights.herokuapp.com/flights/
+https://qantas-flights.herokuapp.com//flights/SYD
+https://qantas-flights.herokuapp.com//flights/MEL
 <br/>
 
 ## To do
