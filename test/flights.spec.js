@@ -52,7 +52,14 @@ describe('testing flights api', function () {
       });
     });
 
-    it('responds to malformated json', function testErrorJson(done) {
+  it('responds to unexpected json', function testErrorJson(done) {
+        request(server)
+          .post('/flights')
+          .send({"flights111":[{"flightNumber":"abc"}]})
+          .expect(500, done)
+  });
+
+  it('responds to malformated json', function testMalformatedJson(done) {
         let malformat_str = '{"flights": ["flightNumber": "801","airport": "PER","scheduled": "2017-06-21T01:00:00Z"}'
         request(server)
           .post('/flights')
@@ -60,15 +67,9 @@ describe('testing flights api', function () {
           .expect(500)
           .end(function(err, res) {
             if (err) done(err);
-            assert.equal(res.text.error, "Error parsing JSON");
+            assert.equal(JSON.parse(res.error.text).error, "Error parsing JSON");
             done();
           })
-      });
+  });
 
-    it('responds to unexpected json', function testErrorJson(done) {
-        request(server)
-          .post('/flights')
-          .send({"flights":[{"flightNumber":"abc"}]})
-          .expect(500, done)
-      });
 });

@@ -8,3 +8,13 @@ alternatively you can post the json request to http://localhost:5001/flights/MEL
 
 also there is a mocha test to validate
 mocha -R spec flights.spec.js
+
+Features:
+- allow optional paramters
+- good structure to sepearate the server and routes
+- unit test included
+- heroku integrated
+
+Todo:
+--------------
+- consider to use some JSON schema validator

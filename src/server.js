@@ -13,15 +13,16 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-app.use('/', flightRoute);
-
 //common unexpeted error
 app.use(function (err, req, res, next) {
   //console.error(err.stack)
   res.status(500).send(JSON.stringify({
       "error": "unexpected error",
-  }))
+  }))  
 })
+
+//flights Router
+app.use('/', flightRoute);
 
 var server = app.listen(port);
 console.log('start to listening ' + port);

@@ -10,7 +10,12 @@ router.post('/flights/:airport?', function(req, res, next) {
 
     let airport = req.params.airport||'SYD';
     let flights = req.body.flights;
-    
+
+    if (flights == undefined) {
+        res.status(500).json({error: "Error parsing JSON"});
+        return
+    }
+
     let resp = [];
 
     flights.filter(x=>x.airline === 'QF'
