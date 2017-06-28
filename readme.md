@@ -7,14 +7,17 @@ then post the json request to http://localhost:5001/flights, which will return o
 alternatively you can post the json request to http://localhost:5001/flights/MEL,to get the MEL related flight for QF
 
 also there is a mocha test to validate
+(maybe need to install mocha -g)
 mocha -R spec flights.spec.js
 
 Features:
-- allow optional paramters
-- good structure to sepearate the server and routes
+- allow optional parameters
+- good structure to separate the server and route
 - unit test included
+- add the json schema validator
 - heroku integrated
 
 Todo:
 --------------
-- consider to use some JSON schema validator
+-  move the three processor to use stream based rather than array 
+-
