@@ -10,14 +10,26 @@ also there is a mocha test to validate
 (maybe need to install mocha -g)
 mocha -R spec flights.spec.js
 
-Features:
+## Features:
 - allow optional parameters
 - good structure to separate the server and route
 - unit test included
 - add the json schema validator
 - heroku integrated
 
-Todo:
+## Heroku Demo Address:
+https://guarded-badlands-40160.herokuapp.com/flights/
+https://guarded-badlands-40160.herokuapp.com/flights/SYD
+https://guarded-badlands-40160.herokuapp.com/flights/MEL
+
+## To do
 --------------
--  move the three processor to use stream based rather than array 
+-  move the three processor to use stream based rather than array
 -
+
+## Screenshots
+
+<img src="https://github.com/xinzhang/qantas-flights/blob/master//screenshots/home-1489717235747.png" alt="homepage" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/react-focus-commerce/blob/master//screenshots/products-cart-1489717372990.png" alt="shopping cart" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/react-focus-commerce/blob/master//screenshots/admin-products-1489717410219.png" alt="admin products" style="width: 200px;"/>
+<img src="https://github.com/xinzhang/react-focus-commerce/blob/master//screenshots/admin-newproduct-1489717420922.png" alt="admin new" style="width: 200px;"/>
